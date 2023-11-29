@@ -24,13 +24,13 @@ class APIClient():
         self._api_key = API_KEY
         self.params = {'api_key': self._api_key}
     
-    def get(self):
+    def get(self, target_url=None):
         """
         Method for fetching data from the API and returning it as JSON.
 
         If you want the full request object, try call() instead.
         """
-        object_raw = self.call(self._url)
+        object_raw = self.call(target_url) if target_url else self.call(self._url)
         object_json = object_raw.json()
         return object_json
     
@@ -73,24 +73,25 @@ def map_pyd_to_sqlalch(pyd_model_type : str, pyd_data):
     if pyd_model_type == 'bill':
         return models.Bill(
             congress = pyd_data.congress,
-            #latest_action_date = pyd_data.latestAction,
+            latest_action_date = pyd_data.latestAction.actionDate,
             bill_num = pyd_data.number,
             origin_chamber = pyd_data.originChamber,
             origin_chamber_code = pyd_data.originChamberCode,
             bill_type = pyd_data.type,
-            #last_update_date = pyd_data.updateDate,
+            last_update_date = pyd_data.updateDate,
             url = pyd_data.url)
 
 
 if __name__ == "__main__":
-    data = APIClient(url='https://api.data.gov/congress/v3/bill/118').get()
+    client = APIClient(url='https://api.data.gov/congress/v3/bill/118/sjres')
     session = SessionLocal()
-    for item in data['bills']:
-        print(item)
-        pydantic_bill = schemas.BillBase.model_validate(item)
-        sqlalch_bill = map_pyd_to_sqlalch('bill', pydantic_bill)
-        print(sqlalch_bill.__dict__)
-        session.add(sqlalch_bill)
-    session.commit()
-    print(session.query(models.Bill).count())
-    session.close()
+    for data in client.paginate():
+        for item in data['bills']:
+            #print(item)
+            pydantic_bill = schemas.BillBase.model_validate(item)
+            sqlalch_bill = map_pyd_to_sqlalch('bill', pydantic_bill)
+            #print(sqlalch_bill.__dict__)
+            session.add(sqlalch_bill)
+        session.commit()
+        print(session.query(models.Bill).count())
+        session.close()
