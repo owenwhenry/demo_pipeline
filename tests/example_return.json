@@ -1,0 +1,48 @@
+{
+    "bill": {
+        "actions": {
+            "count": 3,
+            "url": "https://api.congress.gov/v3/bill/118/sres/475/actions?format=json"
+        },
+        "congress": 118,
+        "cosponsors": {
+            "count": 1,
+            "countIncludingWithdrawnCosponsors": 1,
+            "url": "https://api.congress.gov/v3/bill/118/sres/475/cosponsors?format=json"
+        },
+        "introducedDate": "2023-11-27",
+        "latestAction": {
+            "actionDate": "2023-11-27",
+            "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5617; text: CR S5601)"
+        },
+        "number": "475",
+        "originChamber": "Senate",
+        "sponsors": [
+            {
+                "bioguideId": "B001310",
+                "firstName": "Mike",
+                "fullName": "Sen. Braun, Mike [R-IN]",
+                "isByRequest": "N",
+                "lastName": "Braun",
+                "party": "R",
+                "state": "IN",
+                "url": "https://api.congress.gov/v3/member/B001310?format=json"
+            }
+        ],
+        "title": "A resolution honoring the life and legacy of Coach Robert Montgomery \"Bobby\" Knight.",
+        "titles": {
+            "count": 2,
+            "url": "https://api.congress.gov/v3/bill/118/sres/475/titles?format=json"
+        },
+        "type": "SRES",
+        "updateDate": "2023-11-28T13:43:55Z",
+        "updateDateIncludingText": "2023-11-28T13:43:55Z"
+    },
+    "request": {
+        "billNumber": "475",
+        "billType": "sres",
+        "congress": "118",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
