@@ -1,73 +1,28 @@
+"""
+This is a demo docstring for a demo pipeline!
+
+Goal here is to keep main.py as the central "control panel" for any like pipes. 
+
+Practices borrowed from Guido Van Rossum's suggestions for main: 
+https://www.artima.com/weblogs/viewpost.jsp?thread=4829
+"""
+
+#Generic iumports
 import logging
-import requests as req
-from keys import API_KEY
 import os
-import schemas, models
-from database import SessionLocal, ENGINE
+import sys
+import getopt
+
+#Project-specific imports
+import schemas, database.models as models
+from database.definition import SessionLocal, ENGINE
+
+CONGRESS = None
+TYPE = None
 
 #from google.cloud import pubsub_v1
 
 models.Base.metadata.create_all(bind=ENGINE)
-
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
-
-class APIClient():
-
-    def __init__(self, url=None, logger=None):
-        self.logger = logger or logging.getLogger(__name__)
-        self._url = url
-        self._api_key = API_KEY
-        self.params = {'api_key': self._api_key}
-    
-    def get(self, target_url=None):
-        """
-        Method for fetching data from the API and returning it as JSON.
-
-        If you want the full request object, try call() instead.
-        """
-        object_raw = self.call(target_url) if target_url else self.call(self._url)
-        object_json = object_raw.json()
-        return object_json
-    
-    def call(self, url):
-        """
-        Makes an API call and returns the full request object.
-
-        Raises errors if a non-200 status is returned
-        """
-        self.logger.info('Making call with %s' % url)
-        data = req.get(url, params=self.params)
-        self.status_code = data.status_code
-        self.logger.info('Call made, returning response')
-        if data.status_code != 200:
-            self.logger.warning('Call returned non-200'
-                                ' status of %s' % data.status_code)
-        return data
-
-    def paginate(self):
-        """
-        Generator that makes the initial call to a URL then paginates through
-        the rest of the results.
-
-        Returns the entire response, one page at a time then clears the params.
-        """
-        target_url = self._url
-        while target_url:
-            self.logger.info('Getting data')
-            data = self.get(target_url)
-            yield data
-            if 'next' in data['pagination'].keys():
-                self.logger.info('Heading to next page')
-                target_url = data['pagination']['next']
-            else:
-                self.logger.debug('No more target_url, finishing pagination')
-                target_url = None
-
 
 def map_pyd_to_sqlalch(pyd_model_type : str, pyd_data):
     if pyd_model_type == 'bill':
@@ -82,7 +37,8 @@ def map_pyd_to_sqlalch(pyd_model_type : str, pyd_data):
             url = pyd_data.url)
 
 
-if __name__ == "__main__":
+'''
+def test_run():
     client = APIClient(url='https://api.data.gov/congress/v3/bill/118/sjres')
     session = SessionLocal()
     for data in client.paginate():
@@ -95,3 +51,48 @@ if __name__ == "__main__":
         session.commit()
         print(session.query(models.Bill).count())
         session.close()
+'''
+
+def process(arg):
+    '''
+    This is the thing that maps arguments on to ensuing modules!
+    '''
+    try:
+        pass
+    except:
+        pass
+    else:
+        pass
+
+def main():
+    try:
+        opts, args = getopt.getopt(
+            sys.argv[1:], "h:c:t:", ["help", 
+                                     "--congress = ",
+                                     "--type = "]
+            )
+    except getopt.error as msg:
+        print(msg)
+        print("for help use --help")
+        sys.exit(2)
+    # process options
+    for o, a in opts:
+        if o in ("-h", "--help"):
+            print(__doc__)
+            sys.exit(0)
+        if o in ("-c", "--congress"):
+            CONGRESS = a
+            print(CONGRESS)
+        if o in ("-t", "--type"):
+            TYPE = a
+            print(TYPE)
+    # process arguments
+    for arg in args:
+        if arg in ['bills']:
+            process(arg) # process() is defined elsewhere
+        else:
+            raise Exception("argument %s not recognized"%arg)
+
+if __name__ == "__main__":
+    main()
+    

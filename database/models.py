@@ -1,4 +1,4 @@
-from database import Base
+from database.definition import Base
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String, Date
 
 class Bill(Base):
