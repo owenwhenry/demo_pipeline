@@ -9,6 +9,7 @@ class congressDotGovClient():
         self._url = url
         self._api_key = API_KEY
         self.params = {'api_key': self._api_key}
+        logging.debug('Client initialized')
     
     def get(self, target_url=None):
         """
@@ -16,8 +17,10 @@ class congressDotGovClient():
 
         If you want the full request object, try call() instead.
         """
+        logging.debug(f'Get {target_url}')
         object_raw = self.call(target_url) if target_url else self.call(self._url)
         object_json = object_raw.json()
+        logging.debug(f'Found {object_json}')
         return object_json
     
     def call(self, url):
@@ -43,8 +46,8 @@ class congressDotGovClient():
         Returns the entire response, one page at a time then clears the params.
         """
         target_url = self._url
+        logging.info(f'Paginating from {target_url}')
         while target_url:
-            self.logger.info('Getting data')
             data = self.get(target_url)
             yield data
             if 'next' in data['pagination'].keys():

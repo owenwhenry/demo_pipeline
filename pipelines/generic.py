@@ -12,8 +12,11 @@ class GenericPipe():
 
     def pull():
         raise NotImplementedError
+    
+    def validate(pull_obj):
+        raise NotImplementedError
 
-    def map(pull_obj):
+    def map(val_obj):
         raise NotImplementedError
 
     def push(push_obj):
@@ -23,7 +26,8 @@ class GenericPipe():
         logging.debug("Running pipe!")
         try:
             for pull_item in self.pull():
-                push_item = self.map(pull_item)
+                val_item = self.validate(pull_item)
+                push_item = self.map(val_item)
                 self.push(push_item)
             self.session.commit()
         finally:
@@ -33,4 +37,4 @@ class GenericCDGPipe(GenericPipe):
 
     def __init__(self, logger=None) -> None:
         super().__init__(logger)
-        self._url_base = "api.congress.gov/v3"
+        self._url_base = "https://api.congress.gov/v3"

@@ -55,17 +55,14 @@ def process(arg, congress, type, number):
     '''
     This is the thing that maps arguments on to ensuing modules!
     '''
-    try:
-        logging.debug(f'Processing arg {arg}')
-        if arg == 'bills':
-            logging.debug('Found bill arg')
-            pipe = pipelines.bills.billPipe(congress=congress, obj_type=type, 
-                                     obj_num=number)
-            pipe.run()
-    except:
-        pass
+    logging.debug(f'Processing arg {arg}')
+    if arg == 'bills':
+        logging.debug('Found bill arg')
+        pipe = pipelines.bills.billPipe(congress=congress, obj_type=type, 
+                                    obj_num=number)
+        pipe.run()
     else:
-        pass
+        print("Something else")
 
 def main(argv = None):
     # start logger
