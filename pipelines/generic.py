@@ -20,7 +20,7 @@ class GenericPipe():
         raise NotImplementedError
     
     def run(self):
-        self.logger.debug("Running pipe!")
+        logging.debug("Running pipe!")
         try:
             for pull_item in self.pull():
                 push_item = self.map(pull_item)
