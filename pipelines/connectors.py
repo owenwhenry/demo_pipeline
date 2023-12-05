@@ -4,7 +4,7 @@ from keys import API_KEY
 
 class congressDotGovClient():
 
-    def __init__(self, url=None, logger=None):
+    def __init__(self, url: str=None, logger: object=None):
         self.logger = logger or logging.getLogger(__name__)
         self._url = url
         self._api_key = API_KEY

@@ -1,4 +1,5 @@
 import logging
+from database.definition import SessionLocal, ENGINE
 
 class GenericPipe():
     '''
@@ -6,8 +7,8 @@ class GenericPipe():
     a common structure
     '''
 
-    def __init__(self, logger = None) -> None:
-        self.logger = logger or logging.getLogger(__name__)
+    def __init__(self, session = None) -> None:
+        self.session = session or SessionLocal()
 
     def pull():
         raise NotImplementedError
@@ -15,14 +16,18 @@ class GenericPipe():
     def map(pull_obj):
         raise NotImplementedError
 
-    def push():
+    def push(push_obj):
         raise NotImplementedError
     
     def run(self):
-        for pull_item in self.pull():
-            push_item = self.map(pull_item)
-            self.push(push_item)
-        raise NotImplementedError
+        self.logger.debug("Running pipe!")
+        try:
+            for pull_item in self.pull():
+                push_item = self.map(pull_item)
+                self.push(push_item)
+            self.session.commit()
+        finally:
+            self.session.close()
     
 class GenericCDGPipe(GenericPipe):
 
