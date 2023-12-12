@@ -23,12 +23,16 @@ class GenericPipe():
         raise NotImplementedError
     
     def run(self):
-        logging.debug("Running pipe!")
+        logging.info("Running pipe!")
         try:
             for pull_item in self.pull():
+                logging.info("Trying validation")
                 val_item = self.validate(pull_item)
+                logging.info("Trying to map")
                 push_item = self.map(val_item)
+                logging.info("Trying to push")
                 self.push(push_item)
+            logging.info("Finished, committing.")
             self.session.commit()
         finally:
             self.session.close()

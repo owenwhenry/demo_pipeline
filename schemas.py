@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import Dict, Optional
 from datetime import date, datetime
 
 class LatestAction(BaseModel):
@@ -10,17 +11,17 @@ class BillBase(BaseModel):
     latestAction : LatestAction
     number : int
     originChamber : str
-    originChamberCode : str
+    originChamberCode : Optional[str] = None
     type : str
     updateDate : date
     updateDateIncludingText : datetime
-    url : str
+    url : Optional[str] = None
 
-class ListBase(BaseModel):
+class DictBase(BaseModel):
     count: int
     url : str
 
-class CosponsorsList(ListBase):
+class CosponsorsList(DictBase):
     countIncludingWithdrawnCosponsors : int
 
 class MemberBase(BaseModel):
@@ -33,7 +34,7 @@ class MemberBase(BaseModel):
     url: str
 
 class BillExtended(BillBase):
-    actions: ListBase
+    actions: DictBase
     #congress
     cosponsors : CosponsorsList
     introducedDate: date
@@ -42,11 +43,10 @@ class BillExtended(BillBase):
     #originChamber
     sponsors : list
     title : str
-    titles : ListBase
+    titles : DictBase
     #type
-    #updateDate
+    updateDate : datetime
     #updateDateIncludingText
-    request: dict
 
 
 

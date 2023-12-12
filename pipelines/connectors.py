@@ -29,7 +29,7 @@ class congressDotGovClient():
 
         Raises logger warning if a non-200 status is returned
         """
-        self.logger.info('Making call with %s' % url)
+        self.logger.debug('Making call with %s' % url)
         req_obj = req.get(url, params=self.params)
         self.status_code = req_obj.status_code
         self.logger.info('Call made, returning response')
