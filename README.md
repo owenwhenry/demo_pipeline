@@ -21,11 +21,11 @@ beneficial because it catches errors with your data as far upstream as possible.
 * pipenv shell
 * Run main.py with command line arguements -c, -t, -n and bills
 * Example: python3 main.py -c 116 -t sjres -n 1 bills
-** the -c command specifies a congress
-** the -t command specifies an object type
-** the -n command specifies a number
-** bills specifies the pipe to be run
-* The pipe will crank and save to a local db.
+    - the -c command specifies a congress
+    - the -t command specifies an object type
+    - the -n command specifies a number
+    - bills specifies the pipe to be run
+    - The pipe will crank and save to a local db.
 
 ## Why Pydantic?
 * Serves as built-in documentation of what form data is expected in
