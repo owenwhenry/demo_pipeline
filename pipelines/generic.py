@@ -39,6 +39,6 @@ class GenericPipe():
     
 class GenericCDGPipe(GenericPipe):
 
-    def __init__(self, logger=None) -> None:
+    def __init__(self, logger=None):
         super().__init__(logger)
         self._url_base = "https://api.congress.gov/v3"

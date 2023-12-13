@@ -8,6 +8,7 @@ requests = "*"
 "google.cloud" = "*"
 sqlalchemy = "*"
 pydantic = "*"
+pytest = "*"
 
 [dev-packages]
 

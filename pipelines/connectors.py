@@ -1,6 +1,7 @@
 import logging
 import requests as req
 from keys import API_KEY
+import warnings
 
 class congressDotGovClient():
 
@@ -9,7 +10,7 @@ class congressDotGovClient():
         self._url = url
         self._api_key = API_KEY
         self.params = {'api_key': self._api_key}
-        logging.debug('Client initialized')
+        logging.debug('CDG Client initialized')
     
     def get(self, target_url=None):
         """
@@ -31,7 +32,6 @@ class congressDotGovClient():
         """
         self.logger.debug('Making call with %s' % url)
         req_obj = req.get(url, params=self.params)
-        self.status_code = req_obj.status_code
         self.logger.info('Call made, returning response')
         if req_obj.status_code != 200:
             self.logger.warning('Call returned non-200'
