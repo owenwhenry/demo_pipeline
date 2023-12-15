@@ -1,0 +1,315 @@
+{
+    "bills": [
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2021-01-01",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "82",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution relating to the disapproval of the proposed export to the Government of the Kingdom of Saudi Arabia of certain defense articles.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:43:44Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/82?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-12-09",
+                "text": "Motion to discharge Senate Committee on Foreign Relations rejected by Yea-Nay Vote. 47 - 49. Record Vote Number: 262."
+            },
+            "number": "78",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign  military sale to the United Arab Emirates of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:44:09Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/78?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-12-09",
+                "text": "Motion to discharge Senate Committee on Foreign Relations rejected by Yea-Nay Vote. 46 - 50. Record Vote Number: 261."
+            },
+            "number": "77",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the United Arab Emirates of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:44:09Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/77?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-12-02",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "81",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States to prohibit the use of slavery and involuntary servitude as a punishment for a crime.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:43:45Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/81?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-11-18",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "80",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the United Arab Emirates of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:44:09Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/80?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-11-18",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "79",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing congressional disapproval of the proposed foreign military sale to the United Arab Emirates of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:44:09Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/79?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-11-09",
+                "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 583."
+            },
+            "number": "76",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices.",
+            "type": "SJRES",
+            "updateDate": "2023-01-01",
+            "updateDateIncludingText": "2023-01-01T04:07:57Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/76?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-08-14",
+                "actionTime": "14:27:07",
+                "text": "Held at the desk."
+            },
+            "number": "74",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution requesting the Secretary of the Interior to authorize a unique and 1-time arrangement for certain displays on Mount Rushmore National Memorial relating to the centennial of the ratification of the 19th Amendment to the Constitution of the United States during the period beginning August 18, 2020, and ending on September 30, 2020.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:42:36Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/74?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-08-04",
+                "text": "Read twice and referred to the Committee on the Judiciary. (Sponsor introductory remarks on measure: CR S4734-4735; text: CR S4735)"
+            },
+            "number": "75",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States relative to the fundamental right to vote.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:45:15Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/75?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-05-21",
+                "text": "Senate vitiated previous discharge from the Senate Committee on Rules and Administration."
+            },
+            "number": "72",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for the reappointment of Michael M. Lynton as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:42:36Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/72?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-05-11",
+                "text": "Read twice and referred to the Committee on Rules and Administration."
+            },
+            "number": "73",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for the appointment of Franklin D. Raines as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:42:36Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/73?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-05-07",
+                "text": "Read twice and referred to the Committee on Finance."
+            },
+            "number": "71",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution withdrawing approval of the Agreement Establishing the World Trade Organization.",
+            "type": "SJRES",
+            "updateDate": "2023-01-11",
+            "updateDateIncludingText": "2023-01-11T13:42:36Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/71?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-05-07",
+                "text": "Failed of passage in Senate over veto by Yea-Nay Vote. 49 - 44. Record Vote Number: 84."
+            },
+            "number": "68",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities against the Islamic Republic of Iran that have not been authorized by Congress.",
+            "type": "SJRES",
+            "updateDate": "2022-08-10",
+            "updateDateIncludingText": "2022-08-10T23:26:47Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/68?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-04-10",
+                "text": "Became Public Law No: 116-138."
+            },
+            "number": "66",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for the appointment of Denise O'Leary as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "type": "SJRES",
+            "updateDate": "2022-03-10",
+            "updateDateIncludingText": "2022-03-10T16:56:36Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/66?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-03-11",
+                "text": "Indefinitely postponed by Senate by Unanimous Consent."
+            },
+            "number": "56",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Education relating to \"Borrower Defense Institutional Accountability\".",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T14:33:11Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/56?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-03-02",
+                "text": "Became Public Law No: 116-119."
+            },
+            "number": "67",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for the reappointment of Risa Lavizzo-Mourey as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "type": "SJRES",
+            "updateDate": "2022-03-10",
+            "updateDateIncludingText": "2022-03-10T16:55:45Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/67?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-03-02",
+                "text": "Became Public Law No: 116-118."
+            },
+            "number": "65",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for the reappointment of John Fahey as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "type": "SJRES",
+            "updateDate": "2022-03-10",
+            "updateDateIncludingText": "2022-03-10T16:57:16Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/65?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-02-13",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "70",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States relative to the voting threshold for impeachment.",
+            "type": "SJRES",
+            "updateDate": "2022-02-08",
+            "updateDateIncludingText": "2022-02-08T23:21:03Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/70?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-01-16",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "69",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities against the Islamic Republic of Iran that have not been authorized by Congress.",
+            "type": "SJRES",
+            "updateDate": "2022-02-09",
+            "updateDateIncludingText": "2022-02-09T08:26:25Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/69?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2020-01-08",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "64",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution relating to the use of military force against the Islamic Republic of Iran.",
+            "type": "SJRES",
+            "updateDate": "2022-02-08",
+            "updateDateIncludingText": "2022-02-08T23:14:55Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/64?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 82,
+        "next": "https://api.congress.gov/v3/bill/116/sjres?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "billType": "sjres",
+        "congress": "116",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

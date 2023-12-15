@@ -1,0 +1,315 @@
+{
+    "bills": [
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-05-14",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "23",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution relating to the disapproval of the proposed sale to the Government of the Czech Republic of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2022-02-08",
+            "updateDateIncludingText": "2022-02-08T23:15:47Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/23?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-05-14",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "24",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution relating to the disapproval of the proposed sale to the Government of the Czech Republic of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2022-02-08",
+            "updateDateIncludingText": "2022-02-08T23:14:55Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/24?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-05-14",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "25",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution relating to the disapproval of the proposed sale to the Government of the United Arab Emirates of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2022-02-09",
+            "updateDateIncludingText": "2022-02-09T09:47:38Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/25?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-05-14",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "21",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing amendments to the Constitution of the United States relative to the line item veto, a limitation on the number of terms that a Member of Congress may serve, and requiring a vote of two-thirds of the membership of both Houses of Congress on any legislation raising or imposing new taxes or fees.",
+            "type": "SJRES",
+            "updateDate": "2022-02-08",
+            "updateDateIncludingText": "2022-02-08T23:54:54Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/21?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-05-02",
+                "text": "Failed of passage in Senate over veto by Yea-Nay Vote. 53 - 45. Record Vote Number: 94."
+            },
+            "number": "7",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities in the Republic of Yemen that have not been authorized by Congress.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T17:32:19Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/7?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-05-02",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "19",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States to require (except during time of war and subject to suspension by Congress) that the total amount of money expended by the United States during any fiscal year not exceed the amount of certain revenue received by the United States during such fiscal year and not exceed 20 percent of the gross domestic product of the United States during the previous calendar year.",
+            "type": "SJRES",
+            "updateDate": "2022-02-09",
+            "updateDateIncludingText": "2022-02-09T01:25:29Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/19?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-04-04",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "18",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing a balanced budget amendment to the Constitution of the United States.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T19:02:20Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/18?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-04-02",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "17",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States to abolish the electoral college and to provide for the direct election of the President and Vice President of the United States.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T18:47:24Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/17?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-03-28",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "16",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States to abolish the electoral college and to provide for the direct election of the President and Vice President of the United States.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T18:47:29Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/16?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-03-27",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "15",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States relative to equal rights for men and women.",
+            "type": "SJRES",
+            "updateDate": "2022-11-05",
+            "updateDateIncludingText": "2022-11-05T19:30:20Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/15?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-03-26",
+                "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 0 - 57. Record Vote Number: 52. (CR S1971)"
+            },
+            "number": "8",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution recognizing the duty of the Federal Government to create a Green New Deal.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T14:10:44Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/8?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-03-25",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "14",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of not more than 9 justices.",
+            "type": "SJRES",
+            "updateDate": "2022-11-05",
+            "updateDateIncludingText": "2022-11-05T19:31:24Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/14?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-03-06",
+                "text": "Read twice and referred to the Committee on Foreign Relations. (Sponsor introductory remarks on measure: CR S1709-1710)"
+            },
+            "number": "13",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution to repeal the authorizations for use of military force against Iraq, and for other purposes.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T17:17:26Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/13?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-03-04",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "12",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "AFGHAN Service Act",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T17:03:29Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/12?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-02-28",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "11",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Prohibiting Unauthorized Military Action in Venezuela Resolution of 2019",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T16:47:40Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/11?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-02-28",
+                "text": "Read twice and referred to the Committee on Armed Services. (Sponsor introductory remarks on measure: CR S1600-1601)"
+            },
+            "number": "10",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution relating to a national emergency declared by the President on February 15, 2019.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T16:47:40Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/10?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-02-28",
+                "text": "Read twice and referred to the Committee on Environment and Public Works."
+            },
+            "number": "9",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution calling on the United States and Congress to take immediate action to address the challenge of climate change.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T16:47:40Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/9?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-01-25",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "6",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution removing the deadline for the ratification of the equal rights amendment.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T14:47:39Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/6?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-01-24",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "5",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States requiring that the Federal budget be balanced.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T14:47:41Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/5?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-01-16",
+                "text": "Returned to the Calendar. Calendar No. 13."
+            },
+            "number": "2",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution disapproving the President's proposal to take an action relating to the application of certain sanctions with respect to the Russian Federation.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T14:26:01Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/2?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 82,
+        "next": "https://api.congress.gov/v3/bill/116/sjres?offset=80&limit=20&format=json",
+        "prev": "https://api.congress.gov/v3/bill/116/sjres?offset=40&limit=20&format=json"
+    },
+    "request": {
+        "billType": "sjres",
+        "congress": "116",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

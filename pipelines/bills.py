@@ -11,7 +11,9 @@ logger = logging.getLogger(__name__)
 class billPipe(GenericCDGPipe):
 
     def __init__(
-            self, congress=None, obj_type=None, obj_num=None):
+            self, congress: int = None, 
+            obj_type: str = None, 
+            obj_num: str = None):
         super().__init__()
         logging.info(f"Set billPipe {congress}{obj_type}{obj_num}")
         print(f"billPipe {congress}{obj_type}{obj_num}")
@@ -42,7 +44,7 @@ class billPipe(GenericCDGPipe):
             raise Exception('Root not identified')
         return self._data_root
 
-    def pull(self):
+    def pull(self) -> dict:
         logging.debug(f'Set url to {self.url}')
         logging.debug(f'Set data root to {self.data_root}')
         if self.data_root == "bills":
@@ -56,7 +58,7 @@ class billPipe(GenericCDGPipe):
             logging.debug(f'Data found: {data[self.data_root]}')
             yield data[self.data_root]
 
-    def validate(self, pull_obj):
+    def validate(self, pull_obj) -> BillBase:
         logging.debug(f'Validating {pull_obj}')
         if self.data_root == 'bills':
             return BillBase.model_validate(pull_obj)
@@ -65,7 +67,7 @@ class billPipe(GenericCDGPipe):
         else:
             raise Exception("Data root not set, can't determine object type")
         
-    def map(self, val_obj):
+    def map(self, val_obj) -> Bill:
         logging.debug(f'Maping object {val_obj}')
         return Bill(
             congress = val_obj.congress,

@@ -1,0 +1,44 @@
+{
+    "bills": [
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-01-04",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "3",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States relative to balancing the budget.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T14:26:00Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/3?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-01-03",
+                "text": "Read twice and referred to the Committee on the Judiciary."
+            },
+            "number": "1",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States relative to limiting the number of terms that a Member of Congress may serve.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T14:28:19Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/1?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 82,
+        "prev": "https://api.congress.gov/v3/bill/116/sjres?offset=60&limit=20&format=json"
+    },
+    "request": {
+        "billType": "sjres",
+        "congress": "116",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

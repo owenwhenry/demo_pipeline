@@ -1,0 +1,331 @@
+{
+    "bills": [
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:32:25",
+                "text": "Held at the desk."
+            },
+            "number": "45",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed transfer to the Kingdom of Saudi Arabia certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:13:46Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/45?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:31:35",
+                "text": "Held at the desk."
+            },
+            "number": "44",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed retransfer of certain defense articles from the United Arab Emirates to the Hashemite Kingdom of Jordan.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:13:46Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/44?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:31:26",
+                "text": "Held at the desk."
+            },
+            "number": "43",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed transfer to the Kingdom of Saudi Arabia certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:13:46Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/43?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:31:20",
+                "text": "Held at the desk."
+            },
+            "number": "42",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed export to the United Arab Emirates and the United Kingdom of Great Britain and Northern Ireland of certain defense articles, including technical data and defense services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:28:54Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/42?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:31:13",
+                "text": "Held at the desk."
+            },
+            "number": "41",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed export to the Government of Saudi Arabia and the United Arab Emirates and the United Kingdom of Great Britain and Northern Ireland of technical data and defense services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:28:54Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/41?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:31:07",
+                "text": "Held at the desk."
+            },
+            "number": "40",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed export to India, Israel, Republic of Korea, and Kingdom of Saudi Arabia of certain defense articles, including technical data and defense services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:28:54Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/40?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:31:01",
+                "text": "Held at the desk."
+            },
+            "number": "39",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed export to the United Arab Emirates and United Kingdom of certain defense articles, including technical data and defense services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:28:54Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/39?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:30:32",
+                "text": "Held at the desk."
+            },
+            "number": "35",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the United Arab Emirates of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:28:54Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/35?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:28:21",
+                "text": "Held at the desk."
+            },
+            "number": "34",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the United Arab Emirates of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:28:53Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/34?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:28:12",
+                "text": "Held at the desk."
+            },
+            "number": "33",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the United Arab Emirates of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:28:53Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/33?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:28:06",
+                "text": "Held at the desk."
+            },
+            "number": "32",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Kingdom of Saudi Arabia certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T13:51:00Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/32?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:27:58",
+                "text": "Held at the desk."
+            },
+            "number": "31",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Kingdom of Saudi Arabia certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T13:51:00Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/31?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:27:51",
+                "text": "Held at the desk."
+            },
+            "number": "30",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the United Arab Emirates of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:28:53Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/30?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:27:44",
+                "text": "Held at the desk."
+            },
+            "number": "29",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Kingdom of Saudi Arabia certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T13:51:00Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/29?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:27:37",
+                "text": "Held at the desk."
+            },
+            "number": "28",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the United Arab Emirates of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:28:53Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/28?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-20",
+                "actionTime": "16:27:28",
+                "text": "Held at the desk."
+            },
+            "number": "27",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution providing for congressional disapproval of the proposed transfer to the United Arab Emirates, United Kingdom and Australia certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2023-11-17",
+            "updateDateIncludingText": "2023-11-17T22:28:53Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/27?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-13",
+                "text": "Read twice and referred to the Committee on the Judiciary. (text: CR S3483)"
+            },
+            "number": "49",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution proposing an amendment to the Constitution of the United States authorizing the Congress to prohibit the physical desecration of the flag of the United States.",
+            "type": "SJRES",
+            "updateDate": "2022-11-01",
+            "updateDateIncludingText": "2022-11-01T07:02:32Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/49?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-13",
+                "text": "Motion to discharge Senate Committee on Foreign Relations rejected by Yea-Nay Vote. 42 - 57. Record Vote Number: 162. (consideration: CR S3462)"
+            },
+            "number": "26",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution relating to the disapproval of the proposed sale to the Government of Qatar of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2022-02-08",
+            "updateDateIncludingText": "2022-02-08T23:21:02Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/26?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-06-13",
+                "text": "Motion to discharge Senate Committee on Foreign Relations rejected by Yea-Nay Vote. 43 - 56. Record Vote Number: 161. (consideration: CR S3461-3462)"
+            },
+            "number": "20",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution relating to the disapproval of the proposed sale to the Government of Bahrain of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2022-02-08",
+            "updateDateIncludingText": "2022-02-08T23:16:30Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/20?format=json"
+        },
+        {
+            "congress": 116,
+            "latestAction": {
+                "actionDate": "2019-05-14",
+                "text": "Read twice and referred to the Committee on Foreign Relations."
+            },
+            "number": "22",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "A joint resolution relating to the disapproval of the proposed sale to the Government of Bahrain of certain defense articles and services.",
+            "type": "SJRES",
+            "updateDate": "2022-02-08",
+            "updateDateIncludingText": "2022-02-08T23:21:02Z",
+            "url": "https://api.congress.gov/v3/bill/116/sjres/22?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 82,
+        "next": "https://api.congress.gov/v3/bill/116/sjres?offset=60&limit=20&format=json",
+        "prev": "https://api.congress.gov/v3/bill/116/sjres?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "billType": "sjres",
+        "congress": "116",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
